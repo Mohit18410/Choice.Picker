@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgb(32, 89, 247);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  color: rgb(208, 208, 208);
+  font-size: 18px;
+}
+
+.heading {
+  text-align: center;
+}
+
+#choice-filling {
+  padding: 8px;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+#choice-filling:focus {
+  outline: none;
+}
+
+.tag {
+  background-color: rgb(255, 69, 0);
+  margin: 1px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.tag.highlight {
+  background-color: rgb(1, 1, 18);
+}
